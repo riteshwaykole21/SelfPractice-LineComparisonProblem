@@ -11,6 +11,8 @@ namespace LineComparisonProblem
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Line Comparison Problem");
+            CalculateLenght calculateLenght = new CalculateLenght(1, 4, 2, 8);
+            calculateLenght.LenghtofLine();
             Console.ReadLine();
         }
     }
